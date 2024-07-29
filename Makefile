@@ -49,7 +49,14 @@ create_environment:
 	
 	@echo ">>> conda env created. Activate with:\nconda activate $(PROJECT_NAME)"
 	
+	
+## Create a ipykernel
+.PHONY: create_ipykernel
+create_ipykernel:
+	$(PYTHON_INTERPRETER) -m pip install ipykernel
+	$(PYTHON_INTERPRETER) -m ipykernel install --user --name $(PROJECT_NAME) --display-name "$(PROJECT_NAME) (Python $(PYTHON_VERSION))"
 
+	@echo ">>> ipykernel created"
 
 
 #################################################################################
