@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 black==24.4.2
 flake8==7.1.0
 ipykernel==6.29.5
@@ -11,3 +12,21 @@ revenue-forecasting==0.0.1
 seaborn==0.13.2
 statsforecast==1.7.5
 typer==0.12.3
+=======
+-e .
+black==24.4.2
+flake8==7.1.0
+ipykernel==6.29.5
+isort==5.13.2
+loguru==0.7.2
+mkdocs==1.6.0
+mlforecast==0.13.1
+openpyxl==3.1.5
+pip-chill==1.0.3
+plotly==5.23.0
+python-dotenv==1.0.1
+revenue-forecasting==0.0.1
+seaborn==0.13.2
+statsforecast==1.7.5
+typer==0.12.3
+>>>>>>> 4b257b3f366cbb0a29933583583756361ba31a01
